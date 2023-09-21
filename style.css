@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    margin: 0;
+
+    box-sizing: border-box;
+    font-family: Helvetica,sans-serif;
+}
+
+
+.startpage{
+
+
+    margin: 0 auto;
+    background-image: url(assets/images/bg.jpg);
+    background-size: cover;
+
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+
+.navbar{
+
+
+    padding: 19px 363px;
+
+    display: flex;
+    justify-content: space-between;
+    max-height: 163px;
+    
+}
+.navbar img{
+    width: 173px;
+}
+
+.navbar .signin{
+    height: 32px;
+    width: 102px;
+    background-color: red;
+    font-size: 10px;
+    color: white;
+    border: none;
+    border-radius: 05px;
+}
+
+
+
+
+.centertext{
+
+
+    color: white;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+
+.centertext 
