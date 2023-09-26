@@ -320,10 +320,6 @@
 
 }
 
-.fveimg{
-
-    width: ;
-}
 
 .fivetxt{
     color: white;
@@ -332,7 +328,16 @@
 
 }
 
-.f
+.fivetxt h1{
+
+    font-size: 3rem;
+    padding: 1rem 0rem;
+}
+
+.fivetxt p{
+    font-size: 1.5rem;
+}
+
 
 
 
