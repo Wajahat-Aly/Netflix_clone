@@ -233,3 +233,99 @@
     font-size: 1.6rem;
     margin: 0.3rem 0rem;
 }
+
+
+
+.thirdpage{
+
+
+    background-color: black;
+
+}
+
+.thirdcontainer{
+
+    
+
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+
+}
+
+.txtthird{
+
+    justify-content: center;
+    align-content: center;
+    padding: 7rem 0rem;
+
+    color: white;
+}
+
+.txtthird h1{
+ font-size: 3rem;
+ padding: 1rem 0rem;
+    
+}
+
+.txtthird p{
+
+    font-size: 1.5rem;
+}
+
+
+.pagefour{
+    padding: 3rem 0rem;
+    background-color: black;
+
+}
+
+.fourcontainer{
+    display: flex;
+    justify-content: center;
+}
+
+.fourcontainer h1{
+    color: white;
+    font-size: 3rem;
+
+}
+
+.fourcontainer p{
+
+    color: white;
+    font-size: 1.5rem;
+}
+
+.blankcontainer{
+
+    padding: 0rem 14rem;
+   
+    display: flex;
+    background-color: black;
+   
+}
+
+
+.fivthbox{
+
+    padding: 2rem 0rem;
+    background-color:black;
+}
+
+.fivecontaner{
+
+   display: flex;
+   justify-content: center;
+
+}
+
+.fivetxt{
+    color: white;
+}
+
+
+
+
+
+
