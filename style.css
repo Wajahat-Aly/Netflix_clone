@@ -1,13 +1,13 @@
-*{
+* {
     padding: 0;
     margin: 0;
 
     box-sizing: border-box;
-    font-family: Helvetica,sans-serif;
+    font-family: Helvetica, sans-serif;
 }
 
 
-.startpage{
+.startpage {
 
 
     margin: 0 auto;
@@ -17,10 +17,23 @@
     background-position: center;
     background-repeat: no-repeat;
 
+
+}
+
+.shadoweffect {
+    margin: 0 auto;
+
+    background-size: cover;
+
+    background-position: center;
+    background-repeat: no-repeat;
+
+
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%)
 }
 
 
-.navbar{
+.navbar {
 
 
     padding: 19px 363px;
@@ -28,13 +41,14 @@
     display: flex;
     justify-content: space-between;
     max-height: 163px;
-    
+
 }
-.navbar img{
+
+.navbar img {
     width: 173px;
 }
 
-.navbar .signin{
+.navbar .signin {
     height: 32px;
     width: 102px;
     background-color: red;
@@ -47,14 +61,287 @@
 
 
 
-.centertext{
+.centertext {
 
 
     color: white;
     display: flex;
     flex-direction: column;
-    height: 100%;
+    align-items: center;
+
+    padding: 168px;
+
+    column-gap: 223px;
+
+}
+
+.unlimitedtext {
+
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    gap: 22px;
+
+
 }
 
 
-.centertext 
+.unlimitedtext h1 {
+    font-size: 3rem;
+    font-weight: 900;
+
+}
+
+
+.unlimitedtext p {
+
+    font-size: 1.5rem;
+    font-weight: 400;
+
+
+}
+
+.unlimitedtext h2 {
+
+
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+
+.mailbtn {
+
+    display: flex;
+
+    gap: 12px;
+
+}
+
+
+.inputbox {
+
+
+    width: 24rem;
+    background-color: #00000085;
+
+
+    border-radius: 0.4rem;
+    border-color: white;
+
+
+    padding: 22px 211px 22px 0px;
+
+}
+
+.inputbox p {
+
+    font-weight: lighter;
+    font-size: 1.3rem;
+}
+
+
+.startedbtn {
+
+    background-color: red;
+    padding: 18px;
+    border-radius: 0.3rem;
+
+
+}
+
+.startedbtn a {
+
+    color: white;
+    font-size: 1.5rem;
+    text-decoration: none;
+    font-family: Helvetica;
+
+
+
+}
+
+.singlebar{
+
+    height: 0.5rem;
+    display: block;
+    background-color:rgb(35,35,35);
+}
+
+.scndpage{
+
+    height: auto;
+    padding: 4.3rem;
+    background-color: black;
+    align-items: center;
+   
+}
+
+.tvimg{
+    
+
+    position: relative;
+    width: 480px ;
+    height: 270px;
+   
+    
+}
+
+.tv{
+
+    padding: 8rem 0rem;
+}
+
+.tvimg img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.tvimg::after{
+
+    content: "";
+    position: absolute;
+    top: 11%;
+    left: 13%;
+    height: 73%;
+    width: 73%;
+    
+    background-image: url(assets/video/video.gif);
+    background-repeat: no-repeat;
+
+}
+
+.scndcontainer{
+    display: flex;
+    /* max-width: calc(76% - 2rem); */
+    justify-content: center;
+}
+.scndcontainer .enjoytext{
+    color: white;
+    align-items: center;
+    align-content: centers;
+    padding: 13rem 0rem;
+}
+
+.scndcontainer h1{
+    font-size: 3.2rem;
+}
+.scndcontainer h3{
+    font-weight: 100;
+    font-size: 1.6rem;
+    margin: 0.3rem 0rem;
+}
+
+
+
+.thirdpage{
+
+
+    background-color: black;
+
+}
+
+.thirdcontainer{
+
+    
+
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+
+}
+
+.txtthird{
+
+    justify-content: center;
+    align-content: center;
+    padding: 7rem 0rem;
+
+    color: white;
+}
+
+.txtthird h1{
+ font-size: 3rem;
+ padding: 1rem 0rem;
+    
+}
+
+.txtthird p{
+
+    font-size: 1.5rem;
+}
+
+
+.pagefour{
+    padding: 3rem 0rem;
+    background-color: black;
+
+}
+
+.fourcontainer{
+    display: flex;
+    justify-content: center;
+}
+
+.fourcontainer h1{
+    color: white;
+    font-size: 3rem;
+
+}
+
+.fourcontainer p{
+
+    color: white;
+    font-size: 1.5rem;
+}
+
+.blankcontainer{
+
+    padding: 0rem 14rem;
+   
+    display: flex;
+    background-color: black;
+   
+}
+
+
+.fivthbox{
+
+    padding: 2rem 0rem;
+    background-color:black;
+}
+
+.fivecontaner{
+
+   display: flex;
+   justify-content: center;
+
+}
+
+
+.fivetxt{
+    color: white;
+
+    padding: 13rem 0rem;
+
+}
+
+.fivetxt h1{
+
+    font-size: 3rem;
+    padding: 1rem 0rem;
+}
+
+.fivetxt p{
+    font-size: 1.5rem;
+}
+
+
+
+
+
+
+
+
