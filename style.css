@@ -340,8 +340,30 @@
 
 
 
+.sixthsection{
+
+    background-color: black;
+    padding: 6rem;
+}
 
 
+.sixcontainer{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+
+.frequecttxt{
+
+
+    color: white;
+    font-size: 34;
+    font-weight: 900;
+
+
+
+}
 
 
 
