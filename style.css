@@ -121,7 +121,7 @@
 }
 
 
-.inputbox {
+.inputbox{
 
 
     width: 24rem;
@@ -349,8 +349,7 @@
 
 .sixcontainer{
     align-items: center;
-    display: flex;
-    justify-content: center;
+    
 }
 
 
@@ -360,10 +359,187 @@
     color: white;
     font-size: 34;
     font-weight: 900;
+    display: flex;
+    justify-content: center;
 
 
 
 }
 
+.btns{
+    padding: 2rem 0rem 1rem 0rem;
+    display: flex;
+    justify-content: center;
+}
 
+.whatisnetflix{
+    cursor: pointer;
+    background-color:rgb(45,45,45);
+    padding: 1.4rem 2rem;
+    display: flex;
+    color: white;
+    border-radius: 0%;
+    border: none;
+    outline: none;
+    gap: 57rem;
+    
+}
+.whatisnetflix:hover{
+    background-color:rgb(68, 67, 67);
+
+}
+
+
+.onetext{
+
+    font-size: 1.2rem;
+    padding: 0.6rem 0rem;
+    
+}
+.oneicon{
+    font-size: 0.1rem;
+}
+
+.btns2{
+    padding: 0.01rem 0rem;
+    display: flex;
+    justify-content: center;
+}
+.whatisnetflix2{
+    cursor: pointer;
+    background-color:rgb(45,45,45);
+    padding: 1.4rem 2rem;
+    display: flex;
+    
+    color: white;
+    border-radius: 0%;
+    border: none;
+    outline: none;
+    gap: 45.7rem;
+    
+}
+
+.btns3{
+    padding: 1rem 0rem;
+    display: flex;
+    justify-content: center;
+}
+.whatisnetflix3{
+    cursor: pointer;
+    background-color:rgb(45,45,45);
+    padding: 1.4rem 2rem;
+    display: flex;
+    
+    color: white;
+    border-radius: 0%;
+    border: none;
+    outline: none;
+    gap: 54rem;
+    
+}
+.btns4{
+    
+    display: flex;
+    justify-content: center;
+}
+.whatisnetflix4{
+    
+    cursor: pointer;
+    background-color:rgb(45,45,45);
+    padding: 1.4rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    
+    color: white;
+    border-radius: 0%;
+    border: none;
+    outline: none;
+    gap: 54rem;
+    
+}
+
+
+.buttomtxt{
+    color: white;
+    padding: 3rem 0rem 0rem 0rem;
+    display: flex;
+    justify-content: center;
+    font-weight: lighter;
+    font-size: 1.5rem;
+}
+
+
+.buttommail{
+
+
+   
+
+
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+}
+.inputbox2{
+
+    width: 24rem;
+    background-color: #ffffff0c;
+
+
+    border-radius: 0.4rem;
+    border-color: white;
+    border: 4rem;
+    color: white;
+
+
+    padding: 22px 31px 22px 0px;
+
+}
+.inputbox2 p {
+
+    font-weight: lighter;
+    font-size: 1.3rem;
+    margin: 0rem 3rem;
+}
+.footer{
+
+    display: flex;
+    justify-content: center;
+    
+  
+   align-items: center;
+    background-color: black;
+   
+}
+
+.footercontainer{
+    
+   
+    
+    
+    width: 81rem;
+    
+}
+
+
+
+.footercontainer h3{
+    padding: 5rem 0rem 0rem 0rem;
+    color: rgba(255,255,255,0.7);
+    font-size: 01rem;
+    font-weight: lighter;
+    text-decoration: underline;
+}
+
+.fourtext{
+    text-align: left;
+    display: flex;
+    
+    justify-content: space-between;
+    color: rgba(255,255,255,0.7);
+    padding: 1rem 0rem 0rem 0rem;
+    font-size: 0.85rem;
+    font-weight: bold;
+
+    text-decoration: underline;
+}
 
