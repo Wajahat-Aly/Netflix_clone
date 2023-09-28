@@ -368,10 +368,25 @@
 
 }
 
+
+.centerbtns{
+    position: relative;
+    
+    
+   align-items: center;
+   
+}
+
 .btns{
+    width: 78rem;
     padding: 2rem 0rem 1rem 0rem;
+    
+}
+
+
+.whatisnetflix{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 .whatisnetflix{
@@ -383,7 +398,7 @@
     border-radius: 0%;
     border: none;
     outline: none;
-    gap: 57rem;
+   
     
 }
 .whatisnetflix:hover{
@@ -532,15 +547,22 @@
     text-decoration: underline;
 }
 
+
+.fourtext div{
+
+    height: 2rem;
+    width: 19rem;
+}
+
 .fourtext{
     text-align: left;
     display: flex;
     
-    justify-content: space-between;
+    flex-wrap: wrap;
     color: rgba(255,255,255,0.7);
     padding: 1rem 0rem 0rem 0rem;
     font-size: 0.85rem;
-    font-weight: bold;
+    font-weight: 400;
 
     text-decoration: underline;
 }
@@ -575,3 +597,13 @@
 
     padding: 2rem 0rem;
 }
+
+
+
+
+
+
+@media (max-width: 1250px) {
+    
+  }
+  
