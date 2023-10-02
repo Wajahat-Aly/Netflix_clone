@@ -332,6 +332,10 @@
 }
 
 
+
+
+/* This is 5th section and comntainer  */
+
 .fivthbox {
 
     padding: 2rem 0rem;
@@ -975,8 +979,7 @@
 
 
     .thirdpage{
-       display: flex;
-       justify-content: center;
+      
     }
     .thirdcontainer{
         width: 77%;
@@ -1070,14 +1073,266 @@
 
 
 
-
-    .scndcontainer{
-        max-height: 88%;
+    .centerbtns {
+        position: relative;
     }
 
-    .scndcontainer .tvimg{
-        max-width: 76%;
+
+
+    .btns {
+
+        padding: 2rem 0rem 1rem 0rem;
+        display: flex;
+        justify-content: center;
+
     }
+
+
+    .whatisnetflix {
+        display: flex;
+        justify-content: space-between;
+    }
+    .whatisnetflix img{
+        width: 75%;
+    }
+
+    .whatisnetflix {
+
+        gap: 8rem;
+       
+       
+
+
+    }
+    .whatisnetflix h1{
+        font-size: 1.6rem;
+        font-weight: lighter;
+
+    }
+
+    .whatisnetflix:hover {
+        background-color: rgb(68, 67, 67);
+
+    }
+
+
+    .whatisnetflix2 {
+
+        gap: 0rem;
+
+    }
+    .whatisnetflix2 h1{
+        font-size: 1.48rem;
+        font-weight: lighter;
+
+    }
+    .whatisnetflix2 img{
+        width: 75%;
+    }
+
+
+
+    .whatisnetflix3 {
+
+        gap: 29rem;
+
+    }
+
+    .whatisnetflix4 {
+
+        gap: 29rem;
+
+    }
+
+
+
+.scndpage {
+
+    height: auto;
+    padding:3rem;
+    background-color: black;
+    align-items: center;
+
+}
+
+.tvimg {
+
+
+    position: relative;
+    width: 480px;
+    height: 270px;
+
+
+}
+
+.tv {
+
+    padding: 1rem 0rem;
+}
+
+.tvimg img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 99999;
+    position: relative;
+}
+
+.tvimg::after {
+
+    content: "";
+    position: absolute;
+    top: 11%;
+    left: 13%;
+    height: 73%;
+    width: 73%;
+
+    background-image: url(assets/video/video.gif);
+    background-repeat: no-repeat;
+
+}
+
+.scndcontainer {
+    display: flex;
+    flex-direction: column-reverse;
+    /* max-width: calc(76% - 2rem); */
+    justify-content: center;
+    align-items: center;
+}
+
+.scndcontainer .enjoytext {
+    color: white;
+    align-items: center;
+    align-content: centers;
+    padding: 0rem 0rem;
+}
+
+.scndcontainer h1 {
+    font-size: 3.2rem;
+}
+
+.scndcontainer h3 {
+    font-weight: 100;
+    font-size: 1.6rem;
+    margin: 0.3rem 0rem;
+}
+
+
+.thirdcontainer {
+
+
+
+    padding: 2rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+
+}
+.txtthird {
+
+    justify-content: center;
+    align-content: center;
+    padding: 0rem 0rem;
+
+    color: white;
+}
+
+
+
+.fivecontaner {
+
+    display: flex;
+    align-items: center;
+    flex-direction: column-reverse;
+    justify-content: center;
+    width: 90%;
+    
+
+}
+.fivthbox {
+
+    padding: 2rem 0rem;
+    
+    background-color: black;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+
+.fiveimg img{
+ 
+}
+
+
+.fivetxt {
+    color: white;
+
+    padding: 0rem 0rem;
+
+}
+
+.fivetxt h1 {
+
+    font-size: 3rem;
+    padding: 1rem 0rem;
+}
+
+.fivetxt p {
+    font-size: 1.5rem;
+}
+.txtthird h1 {
+    font-size: 3rem;
+    padding: 0rem 0rem;
+
+}
+
+.pagefour {
+    padding: 0rem 0rem 3rem 0rem;
+    background-color: black;
+
+}
+
+.fourcontainer {
+    padding: 4rem;
+    display: flex;
+    justify-content: center;
+}
+
+.fourcontainer h1 {
+    color: white;
+    font-size: 3rem;
+
+}
+
+.fourcontainer p {
+
+    color: white;
+    font-size: 1.5rem;
+}
+
+.blankcontainer {
+
+    padding: 0rem 0rem;
+
+    display: flex;
+    background-color: black;
+
+}
+
+.footercontainer{
+
+    width: 41rem;
+}
+
+
+.fourtext div {
+
+    height: 2rem;
+    width: 10rem;
+}
+
 
 
 
