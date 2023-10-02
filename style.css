@@ -32,11 +32,26 @@
     background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%)
 }
 
+.header {
+
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 6rem;
+    width: 100%;
+
+
+
+}
 
 .navbar {
 
 
-    padding: 19px 363px;
+    width: 80%;
+
+
+
 
     display: flex;
     justify-content: space-between;
@@ -121,7 +136,7 @@
 }
 
 
-.inputbox{
+.inputbox {
 
 
     width: 24rem;
@@ -163,45 +178,46 @@
 
 }
 
-.singlebar{
+.singlebar {
 
     height: 0.5rem;
     display: block;
-    background-color:rgb(35,35,35);
+    background-color: rgb(35, 35, 35);
 }
 
-.scndpage{
+.scndpage {
 
     height: auto;
     padding: 4.3rem;
     background-color: black;
     align-items: center;
-   
+
 }
 
-.tvimg{
-    
+.tvimg {
+
 
     position: relative;
-    width: 480px ;
+    width: 480px;
     height: 270px;
-   
-    
+
+
 }
 
-.tv{
+.tv {
 
     padding: 8rem 0rem;
 }
 
-.tvimg img{
+.tvimg img {
     width: 100%;
     height: 100%;
     object-fit: cover;
     z-index: 99999;
     position: relative;
 }
-.tvimg::after{
+
+.tvimg::after {
 
     content: "";
     position: absolute;
@@ -209,28 +225,30 @@
     left: 13%;
     height: 73%;
     width: 73%;
-    
+
     background-image: url(assets/video/video.gif);
     background-repeat: no-repeat;
 
 }
 
-.scndcontainer{
+.scndcontainer {
     display: flex;
     /* max-width: calc(76% - 2rem); */
     justify-content: center;
 }
-.scndcontainer .enjoytext{
+
+.scndcontainer .enjoytext {
     color: white;
     align-items: center;
     align-content: centers;
     padding: 13rem 0rem;
 }
 
-.scndcontainer h1{
+.scndcontainer h1 {
     font-size: 3.2rem;
 }
-.scndcontainer h3{
+
+.scndcontainer h3 {
     font-weight: 100;
     font-size: 1.6rem;
     margin: 0.3rem 0rem;
@@ -238,16 +256,16 @@
 
 
 
-.thirdpage{
+.thirdpage {
 
 
     background-color: black;
 
 }
 
-.thirdcontainer{
+.thirdcontainer {
 
-    
+
 
     padding: 2rem;
     display: flex;
@@ -255,7 +273,7 @@
 
 }
 
-.txtthird{
+.txtthird {
 
     justify-content: center;
     align-content: center;
@@ -264,98 +282,104 @@
     color: white;
 }
 
-.txtthird h1{
- font-size: 3rem;
- padding: 1rem 0rem;
-    
+.txtthird h1 {
+    font-size: 3rem;
+    padding: 1rem 0rem;
+
 }
 
-.txtthird p{
+.txtthird p {
 
     font-size: 1.5rem;
 }
 
 
-.pagefour{
+.pagefour {
     padding: 3rem 0rem;
     background-color: black;
 
 }
 
-.fourcontainer{
+.fourcontainer {
     display: flex;
     justify-content: center;
 }
 
-.fourcontainer h1{
+.fourcontainer h1 {
     color: white;
     font-size: 3rem;
 
 }
 
-.fourcontainer p{
+.fourcontainer p {
 
     color: white;
     font-size: 1.5rem;
 }
 
-.blankcontainer{
+.blankcontainer {
 
     padding: 0rem 14rem;
-   
+
     display: flex;
     background-color: black;
-   
+
 }
 
 
-.fivthbox{
+.fivthbox {
 
     padding: 2rem 0rem;
-    background-color:black;
+    
+    background-color: black;
 }
 
-.fivecontaner{
+.fivecontaner {
 
-   display: flex;
-   justify-content: center;
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    
 
+}
+.fiveimg img{
+ 
 }
 
 
-.fivetxt{
+.fivetxt {
     color: white;
 
     padding: 13rem 0rem;
 
 }
 
-.fivetxt h1{
+.fivetxt h1 {
 
     font-size: 3rem;
     padding: 1rem 0rem;
 }
 
-.fivetxt p{
+.fivetxt p {
     font-size: 1.5rem;
 }
 
 
 
-.sixthsection{
+.sixthsection {
 
     background-color: black;
     padding: 6rem;
 }
 
 
-.sixcontainer{
+.sixcontainer {
     align-items: center;
-    
+
 }
 
 
-.frequecttxt{
+.frequecttxt {
 
 
     color: white;
@@ -369,114 +393,121 @@
 }
 
 
-.centerbtns{
+.centerbtns {
     position: relative;
-    
-    
-   align-items: center;
-   
+
 }
 
-.btns{
-    width: 78rem;
+.btns {
+
     padding: 2rem 0rem 1rem 0rem;
-    
+    display: flex;
+    justify-content: center;
+
 }
 
 
-.whatisnetflix{
+.whatisnetflix {
     display: flex;
     justify-content: space-between;
 }
 
-.whatisnetflix{
+.whatisnetflix {
     cursor: pointer;
-    background-color:rgb(45,45,45);
+    background-color: rgb(45, 45, 45);
     padding: 1.4rem 2rem;
-    display: flex;
+
+
     color: white;
     border-radius: 0%;
     border: none;
     outline: none;
-   
-    
-}
-.whatisnetflix:hover{
-    background-color:rgb(68, 67, 67);
+    gap: 58rem;
+
 
 }
 
+.whatisnetflix:hover {
+    background-color: rgb(68, 67, 67);
 
-.onetext{
+}
+
+
+.onetext {
 
     font-size: 1.2rem;
     padding: 0.6rem 0rem;
-    
+
 }
-.oneicon{
+
+.oneicon {
     font-size: 0.1rem;
 }
 
-.btns2{
+.btns2 {
     padding: 0.01rem 0rem;
     display: flex;
     justify-content: center;
 }
-.whatisnetflix2{
+
+.whatisnetflix2 {
     cursor: pointer;
-    background-color:rgb(45,45,45);
+    background-color: rgb(45, 45, 45);
     padding: 1.4rem 2rem;
     display: flex;
-    
+
     color: white;
     border-radius: 0%;
     border: none;
     outline: none;
     gap: 45.7rem;
-    
+
 }
 
-.btns3{
+.btns3 {
     padding: 1rem 0rem;
     display: flex;
     justify-content: center;
 }
-.whatisnetflix3{
+
+.whatisnetflix3 {
     cursor: pointer;
-    background-color:rgb(45,45,45);
+    background-color: rgb(45, 45, 45);
     padding: 1.4rem 2rem;
     display: flex;
-    
+
     color: white;
     border-radius: 0%;
     border: none;
     outline: none;
     gap: 54rem;
-    
+
 }
-.btns4{
-    
+
+.btns4 {
+
     display: flex;
     justify-content: center;
 }
-.whatisnetflix4{
-    
+
+.whatisnetflix4 {
+
     cursor: pointer;
-    background-color:rgb(45,45,45);
+    background-color: rgb(45, 45, 45);
     padding: 1.4rem 2rem;
     display: flex;
     justify-content: space-between;
-    
+
     color: white;
     border-radius: 0%;
     border: none;
     outline: none;
     gap: 54rem;
-    
+
 }
 
 
-.buttomtxt{
+.buttomtxt {
     color: white;
     padding: 3rem 0rem 0rem 0rem;
     display: flex;
@@ -486,17 +517,18 @@
 }
 
 
-.buttommail{
+.buttommail {
 
 
-   
+
 
 
     display: flex;
     justify-content: center;
     padding: 1rem;
 }
-.inputbox2{
+
+.inputbox2 {
 
     width: 24rem;
     background-color: #ffffff0c;
@@ -511,55 +543,57 @@
     padding: 22px 31px 22px 0px;
 
 }
+
 .inputbox2 p {
 
     font-weight: lighter;
     font-size: 1.3rem;
     margin: 0rem 3rem;
 }
-.footer{
+
+.footer {
 
     display: flex;
     justify-content: center;
-    
-  
-   align-items: center;
+
+
+    align-items: center;
     background-color: black;
-   
+
 }
 
-.footercontainer{
-    
-   
-    
-    
+.footercontainer {
+
+
+
+
     width: 81rem;
-    
+
 }
 
 
 
-.footercontainer h3{
+.footercontainer h3 {
     padding: 5rem 0rem 0rem 0rem;
-    color: rgba(255,255,255,0.7);
+    color: rgba(255, 255, 255, 0.7);
     font-size: 01rem;
     font-weight: lighter;
     text-decoration: underline;
 }
 
 
-.fourtext div{
+.fourtext div {
 
     height: 2rem;
     width: 19rem;
 }
 
-.fourtext{
+.fourtext {
     text-align: left;
     display: flex;
-    
+
     flex-wrap: wrap;
-    color: rgba(255,255,255,0.7);
+    color: rgba(255, 255, 255, 0.7);
     padding: 1rem 0rem 0rem 0rem;
     font-size: 0.85rem;
     font-weight: 400;
@@ -570,30 +604,30 @@
 
 
 
-.english button{
+.english button {
     padding: 2rem 0rem 0rem 0rem;
     background-color: transparent;
-    color: rgba(255,255,255,0.7);
+    color: rgba(255, 255, 255, 0.7);
     border: 3rem;
     border-color: white;
     font-size: 1.3rem;
     border-radius: 2rem;
-   
+
 
 
 
 }
 
 
-.english button img{
+.english button img {
     color: white;
 }
 
 
 
-.pakistan{
+.pakistan {
 
-    color: rgba(255,255,255,0.7);
+    color: rgba(255, 255, 255, 0.7);
 
     padding: 2rem 0rem;
 }
@@ -603,7 +637,271 @@
 
 
 
-@media (max-width: 1250px) {
-    
-  }
-  
+@media (max-width: 1450px) {
+
+    .navbar {
+
+
+        width: 80%;
+
+
+
+
+        display: flex;
+        justify-content: space-between;
+        max-height: 163px;
+
+    }
+
+
+    .centerbtns {
+        position: relative;
+
+    }
+
+    .btns {
+
+        padding: 2rem 0rem 1rem 0rem;
+        display: flex;
+        justify-content: center;
+
+    }
+
+
+    .whatisnetflix {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .whatisnetflix {
+        cursor: pointer;
+        background-color: rgb(45, 45, 45);
+        padding: 1.4rem 2rem;
+
+
+        color: white;
+        border-radius: 0%;
+        border: none;
+        outline: none;
+        gap: 58rem;
+
+
+    }
+
+    .whatisnetflix:hover {
+        background-color: rgb(68, 67, 67);
+
+    }
+
+
+    .onetext {
+
+        font-size: 1.2rem;
+        padding: 0.6rem 0rem;
+
+    }
+
+    .oneicon {
+        font-size: 0.1rem;
+    }
+
+    .btns2 {
+        padding: 0.01rem 0rem;
+        display: flex;
+        justify-content: center;
+    }
+
+    .whatisnetflix2 {
+        cursor: pointer;
+        background-color: rgb(45, 45, 45);
+        padding: 1.4rem 2rem;
+        display: flex;
+
+        color: white;
+        border-radius: 0%;
+        border: none;
+        outline: none;
+        gap: 45.7rem;
+
+    }
+
+    .btns3 {
+        padding: 1rem 0rem;
+        display: flex;
+        justify-content: center;
+    }
+
+    .whatisnetflix3 {
+        cursor: pointer;
+        background-color: rgb(45, 45, 45);
+        padding: 1.4rem 2rem;
+        display: flex;
+
+        color: white;
+        border-radius: 0%;
+        border: none;
+        outline: none;
+        gap: 54rem;
+
+    }
+
+    .btns4 {
+
+        display: flex;
+        justify-content: center;
+    }
+
+    .whatisnetflix4 {
+
+        cursor: pointer;
+        background-color: rgb(45, 45, 45);
+        padding: 1.4rem 2rem;
+        display: flex;
+        justify-content: space-between;
+
+        color: white;
+        border-radius: 0%;
+        border: none;
+        outline: none;
+        gap: 54rem;
+
+    }
+
+
+    .centerbtns {
+        position: relative;
+    }
+
+
+
+    .btns {
+
+        padding: 2rem 0rem 1rem 0rem;
+        display: flex;
+        justify-content: center;
+
+    }
+
+
+    .whatisnetflix {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .whatisnetflix {
+
+        gap: 42rem;
+
+
+    }
+
+    .whatisnetflix:hover {
+        background-color: rgb(68, 67, 67);
+
+    }
+
+
+    .whatisnetflix2 {
+
+        gap: 30.7rem;
+
+    }
+
+
+    .whatisnetflix3 {
+
+        gap: 39rem;
+
+    }
+
+    .whatisnetflix4 {
+
+        gap: 39rem;
+
+    }
+
+
+    .footer {
+
+        display: flex;
+        justify-content: center;
+
+
+        align-items: center;
+        background-color: black;
+
+    }
+
+    .footercontainer {
+
+
+
+
+        width: 61rem;
+
+    }
+
+    .fourtext div {
+
+        height: 2rem;
+        width: 15rem;
+    }
+
+
+}
+
+@media (max-width: 1212px) {
+
+
+    .centerbtns {
+        position: relative;
+    }
+
+
+
+    .btns {
+
+        padding: 2rem 0rem 1rem 0rem;
+        display: flex;
+        justify-content: center;
+
+    }
+
+
+    .whatisnetflix {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .whatisnetflix {
+
+        gap: 32rem;
+
+
+    }
+
+    .whatisnetflix:hover {
+        background-color: rgb(68, 67, 67);
+
+    }
+
+
+    .whatisnetflix2 {
+
+        gap: 20.7rem;
+
+    }
+
+
+    .whatisnetflix3 {
+
+        gap: 29rem;
+
+    }
+
+    .whatisnetflix4 {
+
+        gap: 29rem;
+
+    }
+}
