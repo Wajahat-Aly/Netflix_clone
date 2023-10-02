@@ -255,6 +255,8 @@
 }
 
 
+/* This is a 3rd section */ 
+
 
 .thirdpage {
 
@@ -268,6 +270,7 @@
 
 
     padding: 2rem;
+    width: 100%;
     display: flex;
     justify-content: center;
 
@@ -293,6 +296,8 @@
     font-size: 1.5rem;
 }
 
+
+/* This is a end of third box in CSS */ 
 
 .pagefour {
     padding: 3rem 0rem;
@@ -636,6 +641,9 @@
 
 
 
+/* MEDIA QUERY STARTED HERE**********/
+
+
 
 @media (max-width: 1450px) {
 
@@ -904,4 +912,176 @@
         gap: 29rem;
 
     }
+}
+
+
+@media (max-width: 1048px) {
+
+    
+.mailbtn {
+
+    display: flex;
+    flex-direction: column;
+
+
+
+}
+
+
+
+
+    
+.inputbox {
+
+
+    width: 24rem;
+    background-color: #00000085;
+
+
+    border-radius: 0.4rem;
+    border-color: white;
+
+
+    padding: 22px 211px 22px 0px;
+
+}
+
+.inputbox p {
+
+    font-weight: lighter;
+    font-size: 1.3rem;
+}
+
+
+.startedbtn {
+
+    background-color: red;
+    padding: 18px;
+    border-radius: 0.3rem;
+
+
+}
+
+.startedbtn a {
+
+    color: white;
+    font-size: 1.5rem;
+    text-decoration: none;
+    font-family: Helvetica;
+
+
+
+}
+
+
+    .thirdpage{
+       display: flex;
+       justify-content: center;
+    }
+    .thirdcontainer{
+        width: 77%;
+        align-items: center;
+    }
+
+
+
+    .centerbtns {
+        position: relative;
+    }
+
+
+
+    .btns {
+
+        padding: 2rem 0rem 1rem 0rem;
+        display: flex;
+        justify-content: center;
+
+    }
+
+
+    .whatisnetflix {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .whatisnetflix {
+
+        gap: 22rem;
+
+
+    }
+
+    .whatisnetflix:hover {
+        background-color: rgb(68, 67, 67);
+
+    }
+
+
+    .whatisnetflix2 {
+
+        gap: 10.7rem;
+
+    }
+
+
+    .whatisnetflix3 {
+
+        gap: 19rem;
+
+    }
+
+    .whatisnetflix4 {
+
+        gap: 19rem;
+
+    }
+
+
+    .footercontainer{
+
+        width: 51rem;
+    }
+
+    .footercontainer{
+        
+    }
+
+
+
+    
+.fourtext div {
+
+    height: 2rem;
+    width: 11rem;
+}
+
+.mailbtn{
+    align-items: center;
+}
+
+
+
+
+}
+
+
+@media (max-width: 884px){
+
+
+
+
+    .scndcontainer{
+        max-height: 88%;
+    }
+
+    .scndcontainer .tvimg{
+        max-width: 76%;
+    }
+
+
+
+
+
+    
 }
