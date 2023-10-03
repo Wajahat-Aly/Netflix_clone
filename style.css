@@ -1070,12 +1070,31 @@
 
 
 @media (max-width: 884px){
+    
 
+
+
+    .frequecttxt{
+
+        font-size: 1.3rem;
+    }
+
+
+    .buttomtxt{
+
+
+        font-size: 0.8rem;
+    }
 
 
     .centerbtns {
         position: relative;
     }
+
+
+
+
+
 
 
 
@@ -1130,19 +1149,42 @@
         width: 75%;
     }
 
-
-
     .whatisnetflix3 {
 
-        gap: 29rem;
+        gap: 6rem;
 
     }
+    .whatisnetflix3 h1{
+        font-size: 1.48rem;
+        font-weight: lighter;
+
+    }
+    .whatisnetflix3 img{
+        width: 75%;
+    }
+
+
 
     .whatisnetflix4 {
 
-        gap: 29rem;
+        gap: 6rem;
 
     }
+    .whatisnetflix4 h1{
+        font-size: 1.48rem;
+        font-weight: lighter;
+
+    }
+    .whatisnetflix4 img{
+        width: 75%;
+    }
+    
+
+
+
+
+
+    
 
 
 
@@ -1339,4 +1381,306 @@
 
 
     
+}
+
+
+
+
+/* 700 Media Query is started Here*/
+
+@media (max-width: 700px) {
+   
+    
+    .unlimitedtext h1 {
+        font-size: 2rem;
+        font-weight: 900;
+    
+    }
+    
+    .fivthbox {
+
+        padding: 2rem 0rem;
+        
+        background-color: black;
+    }
+    
+    .fivecontaner {
+    
+        display: flex;
+        justify-content: center;
+        width: 90%;
+    }
+
+    .fiveimg img{
+        width: 27rem;
+
+
+
+    }
+
+
+    .thirdimg img{
+
+        width: 21rem;
+    }
+
+    .tv{
+
+
+        height: 09rem;
+    }
+
+    .scndcontainer .enjoytext{
+
+       
+        
+
+        padding: 12rem 0rem 0rem 0rem;
+        width: 29rem;
+        }
+
+    .scndcontainer .enjoytext h1{
+
+        
+
+        font-size: 1.5rem;
+    }
+
+    
+    .scndcontainer .enjoytext h3 br{
+
+        
+
+        display: none;
+    }
+
+    .scndcontainer .enjoytext h3{
+
+        font-size: 1.2rem;
+
+        
+
+    }
+
+    .txtthird{
+
+        width: 29rem;
+        
+       
+        
+
+    }
+    .txtthird h1{
+        font-size: 1.5rem;
+    }
+    .txtthird p{
+        font-size: 1rem;
+
+    }
+
+    .txtthird h1 br{
+
+        display: none;
+    }
+
+    .fivetxt{
+
+        width: 29rem;
+    }
+
+    .fivetxt h1{
+
+        font-size: 1.5rem;
+
+
+    }
+
+    .fivetxt p{
+        font-size: 1rem;
+
+    }
+
+
+    .footercontainer{
+
+        width: 21rem;
+        padding: 0rem;
+    }
+
+    .footercontainer h3{
+
+        font-size: 1.5rem;
+        padding: 2rem 0rem ;
+    }
+
+    .fourtext{
+
+        padding: 0rem;
+    }
+    
+    
+    .fourtext div {
+    
+        height: 2rem;
+        width: 10rem;
+    }
+
+    .centertext{
+        padding: 06rem;
+    }
+    
+}
+
+
+
+
+@media (max-width: 614px) {
+
+    .centertext{
+        padding: 04.5rem;
+    }
+    
+
+
+
+    .frequecttxt{
+
+        font-size: 1rem;
+    }
+
+
+    .buttomtxt{
+
+
+        font-size: 0.8rem;
+    }
+
+
+    .centerbtns {
+        position: relative;
+    }
+
+
+
+
+
+
+
+
+    .btns {
+
+        padding: 2rem 0rem 1rem 0rem;
+        display: flex;
+        justify-content: center;
+
+    }
+
+
+    .whatisnetflix {
+        display: flex;
+        justify-content: space-between;
+    }
+    .whatisnetflix img{
+        display: none;
+    }
+
+    .whatisnetflix {
+
+       
+       
+       
+
+
+    }
+    .whatisnetflix h1{
+        font-size: 1.6rem;
+        font-weight: lighter;
+
+    }
+
+    .whatisnetflix:hover {
+        background-color: rgb(68, 67, 67);
+
+    }
+
+
+    .whatisnetflix2 {
+
+        gap: 0rem;
+
+    }
+    .whatisnetflix2 h1{
+        font-size: 1.48rem;
+        font-weight: lighter;
+
+    }
+    .whatisnetflix2 img{
+        display: none;
+    }
+
+    .whatisnetflix3 {
+
+       
+
+    }
+    .whatisnetflix3 h1{
+        font-size: 1.48rem;
+        font-weight: lighter;
+
+    }
+    .whatisnetflix3 img{
+        
+        
+        display: none;
+    }
+
+
+
+    .whatisnetflix4 {
+
+       
+
+    }
+    .whatisnetflix4 h1{
+        font-size: 1.48rem;
+        font-weight: lighter;
+
+    }
+    .whatisnetflix4 img{
+        
+        display: none;
+    }
+    
+
+
+
+    
+}
+
+
+@media (max-width: 600px) {
+
+    .centertext{
+        padding: 03rem;
+    }
+    
+    
+}
+
+
+
+@media (max-width: 500px) {
+    
+.scndpage {
+
+    height: auto;
+    padding:3rem;
+    background-color: black;
+    align-items: center;
+
+}
+
+.scndcontainer{
+    
+}
 }
