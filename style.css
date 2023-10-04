@@ -1849,6 +1849,34 @@
 }
 
 
+@media (max-width: 392px) {
+
+    .centertext{
+        padding: 2rem;
+    }
+
+   
+
+.navbar img {
+    width: 115px;
+}
+
+    .unlimitedtext div{
+        width: 100%;
+
+    }
+
+
+    .mailbtn div{
+        width: 100%;
+
+    }
+
+
+    
+}
+
+
 
 
 
